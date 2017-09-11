@@ -1,0 +1,29 @@
+Copying tests/filesys/base/syn-write to scratch partition...
+Copying tests/filesys/base/child-syn-wrt to scratch partition...
+Writing command line to /tmp/E4UMtJUXnL.dsk...
+qemu -hda /tmp/E4UMtJUXnL.dsk -hdb /tmp/yu5BSQNuvL.dsk -hdc /tmp/DbNQ45hMQ1.dsk -m 4 -net none -nographic -monitor null
+Kernel command line: -q -f extract run syn-write
+Pintos booting with 4,096 kB RAM...
+374 pages available in kernel pool.
+374 pages available in user pool.
+Calibrating timer...  157,081,600 loops/s.
+hd0:0: detected 137 sector (68 kB) disk, model "QEMU HARDDISK", serial "QM00001"
+hd0:1: detected 4,032 sector (1 MB) disk, model "QEMU HARDDISK", serial "QM00002"
+hd1:0: detected 212 sector (106 kB) disk, model "QEMU HARDDISK", serial "QM00003"
+Formatting file system...done.
+Boot complete.
+Extracting ustar archive from scratch disk into file system...
+Putting 'syn-write' into the file system...
+Putting 'child-syn-wrt' into the file system...
+Erasing ustar archive...
+Executing 'syn-write':
+Execution of 'syn-write' complete.
+Timer: 108 ticks
+Thread: 0 idle ticks, 108 kernel ticks, 0 user ticks
+hd0:0: 0 reads, 0 writes
+hd0:1: 57 reads, 430 writes
+hd1:0: 211 reads, 2 writes
+Console: 877 characters output
+Keyboard: 0 keys pressed
+Exception: 0 page faults
+Powering off...

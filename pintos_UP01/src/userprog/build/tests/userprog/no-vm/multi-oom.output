@@ -1,0 +1,27 @@
+Copying tests/userprog/no-vm/multi-oom to scratch partition...
+Writing command line to /tmp/WJTdcaW4No.dsk...
+qemu -hda /tmp/WJTdcaW4No.dsk -hdb /tmp/nZF7UFHYIt.dsk -hdc /tmp/TFzyJKRJPi.dsk -m 4 -net none -nographic -monitor null
+Kernel command line: -q -f extract run multi-oom
+Pintos booting with 4,096 kB RAM...
+374 pages available in kernel pool.
+374 pages available in user pool.
+Calibrating timer...  157,081,600 loops/s.
+hd0:0: detected 137 sector (68 kB) disk, model "QEMU HARDDISK", serial "QM00001"
+hd0:1: detected 4,032 sector (1 MB) disk, model "QEMU HARDDISK", serial "QM00002"
+hd1:0: detected 113 sector (56 kB) disk, model "QEMU HARDDISK", serial "QM00003"
+Formatting file system...done.
+Boot complete.
+Extracting ustar archive from scratch disk into file system...
+Putting 'multi-oom' into the file system...
+Erasing ustar archive...
+Executing 'multi-oom':
+Execution of 'multi-oom' complete.
+Timer: 83 ticks
+Thread: 0 idle ticks, 83 kernel ticks, 0 user ticks
+hd0:0: 0 reads, 0 writes
+hd0:1: 30 reads, 230 writes
+hd1:0: 112 reads, 2 writes
+Console: 826 characters output
+Keyboard: 0 keys pressed
+Exception: 0 page faults
+Powering off...
