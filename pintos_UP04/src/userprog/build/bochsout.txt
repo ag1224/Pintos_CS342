@@ -1,0 +1,263 @@
+00000000000i[     ] Bochs x86 Emulator 2.5.1
+00000000000i[     ]   Built from SVN snapshot on January 6, 2012
+00000000000i[     ] Compiled on Oct 10 2012 at 11:12:02
+00000000000i[     ] System configuration
+00000000000i[     ]   processors: 1 (cores=1, HT threads=1)
+00000000000i[     ]   A20 line support: yes
+00000000000i[     ] IPS is set to 1000000
+00000000000i[     ] CPU configuration
+00000000000i[     ]   level: 6
+00000000000i[     ]   SMP support: no
+00000000000i[     ]   APIC support: xapic
+00000000000i[     ]   FPU support: yes
+00000000000i[     ]   MMX support: yes
+00000000000i[     ]   3dnow! support: no
+00000000000i[     ]   SEP support: yes
+00000000000i[     ]   SSE support: sse2
+00000000000i[     ]   XSAVE support: no 
+00000000000i[     ]   AES support: no
+00000000000i[     ]   MOVBE support: no
+00000000000i[     ]   x86-64 support: no
+00000000000i[     ]   MWAIT support: yes
+00000000000i[     ] Optimization configuration
+00000000000i[     ]   RepeatSpeedups support: no
+00000000000i[     ]   Fast function calls: no
+00000000000i[     ]   Handlers Chaining speedups: no
+00000000000i[     ] Devices configuration
+00000000000i[     ]   NE2000 support: no
+00000000000i[     ]   PCI support: no, enabled=no
+00000000000i[     ]   SB16 support: no
+00000000000i[     ]   USB support: no
+00000000000i[     ]   VGA extension support: vbe 
+00000000000i[MEM0 ] allocated memory at 0x2b3b7ed95010. after alignment, vector=0x2b3b7ed96000
+00000000000i[MEM0 ] 4.00MB
+00000000000i[MEM0 ] mem block size = 0x00100000, blocks=4
+00000000000i[MEM0 ] rom at 0xfffe0000/131072 ('/usr/local/share/bochs/BIOS-bochs-latest')
+00000000000i[CMOS ] Using specified time for initial clock
+00000000000i[CMOS ] Setting initial clock to: Thu Jan  1 05:30:00 1970 (time0=0)
+00000000000i[DMA  ] channel 4 used by cascade
+00000000000i[DMA  ] channel 2 used by Floppy Drive
+00000000000i[MEM0 ] Register memory access handlers: 0x00000000000a0000 - 0x00000000000bffff
+00000000000i[VGA  ] interval=200000
+00000000000i[MEM0 ] Register memory access handlers: 0x00000000e0000000 - 0x00000000e0ffffff
+00000000000i[BXVGA] VBE Bochs Display Extension Enabled
+00000000000i[MEM0 ] rom at 0xc0000/41472 ('/usr/local/share/bochs/VGABIOS-lgpl-latest')
+00000000000i[     ] init_dev of 'unmapped' plugin device by virtual method
+00000000000i[     ] init_dev of 'biosdev' plugin device by virtual method
+00000000000i[     ] init_dev of 'speaker' plugin device by virtual method
+00000000000i[SPEAK] Failed to open /dev/console: Permission denied
+00000000000i[SPEAK] Deactivating beep on console
+00000000000i[     ] init_dev of 'extfpuirq' plugin device by virtual method
+00000000000i[     ] init_dev of 'ioapic' plugin device by virtual method
+00000000000i[IOAP ] initializing I/O APIC
+00000000000i[MEM0 ] Register memory access handlers: 0x00000000fec00000 - 0x00000000fec00fff
+00000000000i[     ] init_dev of 'keyboard' plugin device by virtual method
+00000000000i[KBD  ] will paste characters every 1000 keyboard ticks
+00000000000i[     ] init_dev of 'harddrv' plugin device by virtual method
+00000000000i[HD   ] HD on ata0-0: '/tmp/cY0lTfK8K0.dsk', 'flat' mode
+00000000000i[IMG  ] hd_size: 516096
+00000000000i[HD   ] ata0-0: using specified geometry: CHS=1/16/63
+00000000000i[HD   ] HD on ata0-1: '/tmp/1vEjuBF50v.dsk', 'flat' mode
+00000000000i[IMG  ] hd_size: 2064384
+00000000000i[HD   ] ata0-1: using specified geometry: CHS=4/16/63
+00000000000i[HD   ] HD on ata1-0: '/tmp/t5gOut1b90.dsk', 'flat' mode
+00000000000i[IMG  ] hd_size: 516096
+00000000000i[HD   ] ata1-0: using specified geometry: CHS=1/16/63
+00000000000i[HD   ] Using boot sequence disk, none, none
+00000000000i[HD   ] Floppy boot signature check is enabled
+00000000000i[     ] init_dev of 'serial' plugin device by virtual method
+00000000000i[SER  ] com1 at 0x03f8 irq 4
+00000000000i[     ] init_dev of 'parallel' plugin device by virtual method
+00000000000i[PAR  ] parallel port 1 at 0x0378 irq 7
+00000000000i[     ] register state of 'unmapped' plugin device by virtual method
+00000000000i[     ] register state of 'biosdev' plugin device by virtual method
+00000000000i[     ] register state of 'speaker' plugin device by virtual method
+00000000000i[     ] register state of 'extfpuirq' plugin device by virtual method
+00000000000i[     ] register state of 'ioapic' plugin device by virtual method
+00000000000i[     ] register state of 'keyboard' plugin device by virtual method
+00000000000i[     ] register state of 'harddrv' plugin device by virtual method
+00000000000i[     ] register state of 'serial' plugin device by virtual method
+00000000000i[     ] register state of 'parallel' plugin device by virtual method
+00000000000i[SYS  ] bx_pc_system_c::Reset(HARDWARE) called
+00000000000i[CPU0 ] cpu hardware reset
+00000000000i[APIC0] allocate APIC id=0 (MMIO enabled) to 0x00000000fee00000
+00000000000i[CPU0 ] CPUID[0x00000000]: 00000005 756e6547 6c65746e 49656e69
+00000000000i[CPU0 ] CPUID[0x00000001]: 00000633 00010800 00000008 0fcbfbff
+00000000000i[CPU0 ] CPUID[0x00000002]: 00410601 00000000 00000000 00000000
+00000000000i[CPU0 ] CPUID[0x00000003]: 00000000 00000000 00000000 00000000
+00000000000i[CPU0 ] CPUID[0x00000004]: 00000000 00000000 00000000 00000000
+00000000000i[CPU0 ] CPUID[0x00000005]: 00000040 00000040 00000003 00000020
+00000000000i[CPU0 ] CPUID[0x80000000]: 80000004 00000000 00000000 00000000
+00000000000i[CPU0 ] CPUID[0x80000001]: 00000000 00000000 00000000 00000000
+00000000000i[CPU0 ] CPUID[0x80000002]: 20202020 20202020 20202020 6e492020
+00000000000i[CPU0 ] CPUID[0x80000003]: 286c6574 50202952 69746e65 52286d75
+00000000000i[CPU0 ] CPUID[0x80000004]: 20342029 20555043 20202020 00202020
+00000000000i[     ] reset of 'unmapped' plugin device by virtual method
+00000000000i[     ] reset of 'biosdev' plugin device by virtual method
+00000000000i[     ] reset of 'speaker' plugin device by virtual method
+00000000000i[     ] reset of 'extfpuirq' plugin device by virtual method
+00000000000i[     ] reset of 'ioapic' plugin device by virtual method
+00000000000i[     ] reset of 'keyboard' plugin device by virtual method
+00000000000i[     ] reset of 'harddrv' plugin device by virtual method
+00000000000i[     ] reset of 'serial' plugin device by virtual method
+00000000000i[     ] reset of 'parallel' plugin device by virtual method
+00000004855i[BIOS ] $Revision: 10789 $ $Date: 2011-11-24 17:03:51 +0100 (Do, 24. Nov 2011) $
+00000318302i[KBD  ] reset-disable command received
+00000319566i[BIOS ] Starting rombios32
+00000320013i[BIOS ] Shutdown flag 0
+00000320611i[BIOS ] ram_size=0x00400000
+00000321023i[BIOS ] ram_end=4MB
+00000332095i[BIOS ] Found 1 cpu(s)
+00000348349i[BIOS ] bios_table_addr: 0x000fbde8 end=0x000fcc00
+00000360919i[BIOS ] bios_table_cur_addr: 0x000fbde8
+00000488537i[VBIOS] VGABios $Id: vgabios.c,v 1.75 2011/10/15 14:07:21 vruppert Exp $
+00000488608i[BXVGA] VBE known Display Interface b0c0
+00000488640i[BXVGA] VBE known Display Interface b0c5
+00000491565i[VBIOS] VBE Bios $Id: vbe.c,v 1.64 2011/07/19 18:25:05 vruppert Exp $
+00000837438i[BIOS ] ata0-0: PCHS=1/16/63 translation=none LCHS=1/16/63
+00000895458i[BIOS ] ata0-1: PCHS=4/16/63 translation=none LCHS=4/16/63
+00000953486i[BIOS ] ata1-0: PCHS=1/16/63 translation=none LCHS=1/16/63
+00004834910i[BIOS ] IDE time out
+00007885059i[BIOS ] Booting from 0000:7c00
+00246724931i[NGUI ] ips = 246.725M
+00556096750i[NGUI ] ips = 309.372M
+00881261434i[NGUI ] ips = 325.165M
+01206442500i[NGUI ] ips = 325.181M
+01531515487i[NGUI ] ips = 325.073M
+01856711041i[NGUI ] ips = 325.196M
+02181845783i[NGUI ] ips = 325.135M
+02506981205i[NGUI ] ips = 325.135M
+02832186552i[NGUI ] ips = 325.205M
+03157483025i[NGUI ] ips = 325.296M
+03482438250i[NGUI ] ips = 324.955M
+03807577461i[NGUI ] ips = 325.139M
+04132700000i[NGUI ] ips = 325.123M
+04457901999i[NGUI ] ips = 325.202M
+04783087445i[NGUI ] ips = 325.185M
+05108342573i[NGUI ] ips = 325.255M
+05433625510i[NGUI ] ips = 325.283M
+05758963032i[NGUI ] ips = 325.338M
+06084042700i[NGUI ] ips = 325.080M
+06408977783i[NGUI ] ips = 324.935M
+06730861609i[NGUI ] ips = 321.884M
+07056042750i[NGUI ] ips = 325.181M
+07381198570i[NGUI ] ips = 325.156M
+07706391300i[NGUI ] ips = 325.193M
+08030288009i[NGUI ] ips = 323.897M
+08355534351i[NGUI ] ips = 325.246M
+08680911143i[NGUI ] ips = 325.377M
+09006134863i[NGUI ] ips = 325.224M
+09331569800i[NGUI ] ips = 325.435M
+09656724776i[NGUI ] ips = 325.155M
+09978789909i[NGUI ] ips = 322.065M
+10304082671i[NGUI ] ips = 325.293M
+10629310265i[NGUI ] ips = 325.228M
+10954305885i[NGUI ] ips = 324.996M
+11279530980i[NGUI ] ips = 325.225M
+11575445776i[NGUI ] ips = 295.915M
+11898970483i[NGUI ] ips = 323.525M
+12224186072i[NGUI ] ips = 325.216M
+12549272900i[NGUI ] ips = 325.087M
+12874346300i[NGUI ] ips = 325.073M
+13196431589i[NGUI ] ips = 322.085M
+13521391993i[NGUI ] ips = 324.960M
+13846635350i[NGUI ] ips = 325.243M
+14171926858i[NGUI ] ips = 325.292M
+14497201849i[NGUI ] ips = 325.275M
+14822277061i[NGUI ] ips = 325.075M
+15147614750i[NGUI ] ips = 325.338M
+15472958300i[NGUI ] ips = 325.344M
+15798297482i[NGUI ] ips = 325.339M
+16123447852i[NGUI ] ips = 325.150M
+16448773382i[NGUI ] ips = 325.326M
+16774008477i[NGUI ] ips = 325.235M
+17099173638i[NGUI ] ips = 325.165M
+17424378974i[NGUI ] ips = 325.205M
+17749663739i[NGUI ] ips = 325.285M
+18074769270i[NGUI ] ips = 325.106M
+18399834282i[NGUI ] ips = 325.065M
+18724859169i[NGUI ] ips = 325.025M
+19049810744i[NGUI ] ips = 324.952M
+19371659478i[NGUI ] ips = 321.849M
+19696830200i[NGUI ] ips = 325.171M
+20021869924i[NGUI ] ips = 325.040M
+20347054300i[NGUI ] ips = 325.184M
+20672410588i[NGUI ] ips = 325.356M
+20997425482i[NGUI ] ips = 325.015M
+21322680964i[NGUI ] ips = 325.255M
+21647746100i[NGUI ] ips = 325.065M
+21972840898i[NGUI ] ips = 325.095M
+22298036575i[NGUI ] ips = 325.196M
+22619989700i[NGUI ] ips = 321.953M
+22945036826i[NGUI ] ips = 325.047M
+23270227945i[NGUI ] ips = 325.191M
+23595367034i[NGUI ] ips = 325.139M
+23920522043i[NGUI ] ips = 325.155M
+24245759881i[NGUI ] ips = 325.238M
+24570912258i[NGUI ] ips = 325.152M
+24896017483i[NGUI ] ips = 325.105M
+25221179700i[NGUI ] ips = 325.162M
+25546397873i[NGUI ] ips = 325.218M
+25868413374i[NGUI ] ips = 322.016M
+26193622994i[NGUI ] ips = 325.210M
+26518693272i[NGUI ] ips = 325.070M
+26843818200i[NGUI ] ips = 325.125M
+27169066775i[NGUI ] ips = 325.249M
+27494248916i[NGUI ] ips = 325.182M
+27819399100i[NGUI ] ips = 325.150M
+28144715567i[NGUI ] ips = 325.316M
+28469824735i[NGUI ] ips = 325.109M
+28795089726i[NGUI ] ips = 325.265M
+29120174998i[NGUI ] ips = 325.085M
+29445290538i[NGUI ] ips = 325.116M
+29770475800i[NGUI ] ips = 325.185M
+30095850234i[NGUI ] ips = 325.374M
+30421097200i[NGUI ] ips = 325.247M
+30746266743i[NGUI ] ips = 325.170M
+31040282200i[NGUI ] ips = 294.015M
+31365257179i[NGUI ] ips = 324.975M
+31690399300i[NGUI ] ips = 325.142M
+32012294300i[NGUI ] ips = 321.895M
+32337455929i[NGUI ] ips = 325.162M
+32662531321i[NGUI ] ips = 325.075M
+32987676773i[NGUI ] ips = 325.145M
+33312834754i[NGUI ] ips = 325.158M
+33638119442i[NGUI ] ips = 325.285M
+33963282224i[NGUI ] ips = 325.163M
+34288547353i[NGUI ] ips = 325.265M
+34613794452i[NGUI ] ips = 325.247M
+34938937689i[NGUI ] ips = 325.143M
+35260925800i[NGUI ] ips = 321.988M
+35586099455i[NGUI ] ips = 325.174M
+35911122953i[NGUI ] ips = 325.023M
+36236238466i[NGUI ] ips = 325.116M
+36543523106i[NGUI ] ips = 307.285M
+36851747250i[NGUI ] ips = 308.224M
+37176915808i[NGUI ] ips = 325.169M
+37501990800i[NGUI ] ips = 325.075M
+37826825510i[NGUI ] ips = 324.835M
+38151928655i[NGUI ] ips = 325.103M
+38473784096i[NGUI ] ips = 321.855M
+38798761342i[NGUI ] ips = 324.977M
+38847014887p[     ] >>PANIC<< SIGNAL 2 caught
+38847014887i[CPU0 ] CPU is in protected mode (halted)
+38847014887i[CPU0 ] CS.mode = 32 bit
+38847014887i[CPU0 ] SS.mode = 32 bit
+38847014887i[CPU0 ] | EAX=c0119000  EBX=c0101a72  ECX=c0118000  EDX=00000001
+38847014887i[CPU0 ] | ESP=c0118fc8  EBP=c0118fd0  ESI=00000000  EDI=00000000
+38847014887i[CPU0 ] | IOPL=0 id vip vif ac vm rf nt of df IF tf SF zf af pf cf
+38847014887i[CPU0 ] | SEG sltr(index|ti|rpl)     base    limit G D
+38847014887i[CPU0 ] |  CS:0008( 0001| 0|  0) 00000000 ffffffff 1 1
+38847014887i[CPU0 ] |  DS:0010( 0002| 0|  0) 00000000 ffffffff 1 1
+38847014887i[CPU0 ] |  SS:0010( 0002| 0|  0) 00000000 ffffffff 1 1
+38847014887i[CPU0 ] |  ES:0010( 0002| 0|  0) 00000000 ffffffff 1 1
+38847014887i[CPU0 ] |  FS:0010( 0002| 0|  0) 00000000 ffffffff 1 1
+38847014887i[CPU0 ] |  GS:0010( 0002| 0|  0) 00000000 ffffffff 1 1
+38847014887i[CPU0 ] | EIP=c0101a99 (c0101a99)
+38847014887i[CPU0 ] | CR0=0xe0010015 CR2=0x00000000
+38847014887i[CPU0 ] | CR3=0x00115000 CR4=0x00000000
+38847014887i[CPU0 ] 0xc0101a99>> jmp .-14 (0xc0101a8d) : EBF2
+38847014887i[CMOS ] Last time is 38847 (Thu Jan  1 16:17:27 1970)
+38847014887i[NGUI ] bx_nogui_gui_c::exit() not implemented yet.
+38847014887i[     ] restoring default signal behavior
+38847014887i[CTRL ] quit_sim called with exit code 1
