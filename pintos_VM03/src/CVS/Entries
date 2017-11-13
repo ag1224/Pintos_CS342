@@ -1,0 +1,19 @@
+/.cvsignore/2.0/Mon Sep 26 14:45:50 2016//
+/LICENSE/2.0/Mon Sep 26 14:45:50 2016//
+/Make.config/2.0/Mon Sep 26 14:45:50 2016//
+/Makefile/2.0/Mon Sep 26 14:45:50 2016//
+/Makefile.build/2.0/Mon Sep 26 14:45:50 2016//
+/Makefile.kernel/2.0/Mon Sep 26 14:45:50 2016//
+/Makefile.userprog/2.0/Mon Sep 26 14:45:50 2016//
+D/bochs////
+D/devices////
+D/examples////
+D/filesys////
+D/lib////
+D/misc////
+D/tests////
+D/threads////
+D/userprog////
+D/utils////
+D/vm////
+D/vmware////

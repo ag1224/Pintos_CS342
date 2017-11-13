@@ -1,0 +1,31 @@
+Copying tests/userprog/sc-boundary to scratch partition...
+Writing command line to /tmp/ZcOM94cuNq.dsk...
+qemu -hda /tmp/ZcOM94cuNq.dsk -hdb /tmp/zYGIjHxjMj.dsk -hdc /tmp/x6cbb0B3Nx.dsk -hdd /tmp/2HiJaeoafS.dsk -m 4 -net none -nographic -monitor null
+Kernel command line: -q -f extract run sc-boundary
+Pintos booting with 4,096 kB RAM...
+373 pages available in kernel pool.
+372 pages available in user pool.
+Calibrating timer...  156,672,000 loops/s.
+hd0:0: detected 153 sector (76 kB) disk, model "QEMU HARDDISK", serial "QM00001"
+hd0:1: detected 4,032 sector (1 MB) disk, model "QEMU HARDDISK", serial "QM00002"
+hd1:0: detected 100 sector (50 kB) disk, model "QEMU HARDDISK", serial "QM00003"
+hd1:1: detected 8,064 sector (3 MB) disk, model "QEMU HARDDISK", serial "QM00004"
+Formatting file system...done.
+Boot complete.
+Extracting ustar archive from scratch disk into file system...
+Putting 'sc-boundary' into the file system...
+Erasing ustar archive...
+Executing 'sc-boundary':
+(sc-boundary) begin
+sc-boundary: exit(42)
+Execution of 'sc-boundary' complete.
+Timer: 75 ticks
+Thread: 30 idle ticks, 45 kernel ticks, 1 user ticks
+hd0:0: 0 reads, 0 writes
+hd0:1: 59 reads, 204 writes
+hd1:0: 99 reads, 2 writes
+hd1:1: 0 reads, 0 writes
+Console: 983 characters output
+Keyboard: 0 keys pressed
+Exception: 7 page faults
+Powering off...

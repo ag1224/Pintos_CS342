@@ -1,0 +1,37 @@
+Copying tests/userprog/args-dbl-space to scratch partition...
+Writing command line to /tmp/OAVa8HZHt7.dsk...
+qemu -hda /tmp/OAVa8HZHt7.dsk -hdb /tmp/uRmKI854oG.dsk -hdc /tmp/bzAp1Gry0M.dsk -hdd /tmp/R7N1sxb6F2.dsk -m 4 -net none -nographic -monitor null
+Kernel command line: -q -f extract run 'args-dbl-space two  spaces!'
+Pintos booting with 4,096 kB RAM...
+373 pages available in kernel pool.
+372 pages available in user pool.
+Calibrating timer...  157,081,600 loops/s.
+hd0:0: detected 153 sector (76 kB) disk, model "QEMU HARDDISK", serial "QM00001"
+hd0:1: detected 4,032 sector (1 MB) disk, model "QEMU HARDDISK", serial "QM00002"
+hd1:0: detected 96 sector (48 kB) disk, model "QEMU HARDDISK", serial "QM00003"
+hd1:1: detected 8,064 sector (3 MB) disk, model "QEMU HARDDISK", serial "QM00004"
+Formatting file system...done.
+Boot complete.
+Extracting ustar archive from scratch disk into file system...
+Putting 'args-dbl-space' into the file system...
+Erasing ustar archive...
+Executing 'args-dbl-space two  spaces!':
+(args) begin
+(args) argc = 3
+(args) argv[0] = 'args-dbl-space'
+(args) argv[1] = 'two'
+(args) argv[2] = 'spaces!'
+(args) argv[3] = null
+(args) end
+args-dbl-space: exit(0)
+Execution of 'args-dbl-space two  spaces!' complete.
+Timer: 79 ticks
+Thread: 30 idle ticks, 48 kernel ticks, 1 user ticks
+hd0:0: 0 reads, 0 writes
+hd0:1: 59 reads, 196 writes
+hd1:0: 95 reads, 2 writes
+hd1:1: 0 reads, 0 writes
+Console: 1163 characters output
+Keyboard: 0 keys pressed
+Exception: 6 page faults
+Powering off...

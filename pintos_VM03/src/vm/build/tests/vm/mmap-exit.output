@@ -1,0 +1,43 @@
+Copying tests/vm/mmap-exit to scratch partition...
+Copying tests/vm/child-mm-wrt to scratch partition...
+Writing command line to /tmp/c8OTCNC4Yt.dsk...
+qemu -hda /tmp/c8OTCNC4Yt.dsk -hdb /tmp/JqBNSAoIU4.dsk -hdc /tmp/nU8uD0JsKw.dsk -hdd /tmp/AfV5b7rtfj.dsk -m 4 -net none -nographic -monitor null
+Kernel command line: -q -f extract run mmap-exit
+Pintos booting with 4,096 kB RAM...
+373 pages available in kernel pool.
+372 pages available in user pool.
+Calibrating timer...  157,081,600 loops/s.
+hd0:0: detected 153 sector (76 kB) disk, model "QEMU HARDDISK", serial "QM00001"
+hd0:1: detected 4,032 sector (1 MB) disk, model "QEMU HARDDISK", serial "QM00002"
+hd1:0: detected 198 sector (99 kB) disk, model "QEMU HARDDISK", serial "QM00003"
+hd1:1: detected 8,064 sector (3 MB) disk, model "QEMU HARDDISK", serial "QM00004"
+Formatting file system...done.
+Boot complete.
+Extracting ustar archive from scratch disk into file system...
+Putting 'mmap-exit' into the file system...
+Putting 'child-mm-wrt' into the file system...
+Erasing ustar archive...
+Executing 'mmap-exit':
+(mmap-exit) begin
+(child-mm-wrt) begin
+(child-mm-wrt) create "sample.txt"
+(child-mm-wrt) open "sample.txt"
+(child-mm-wrt) mmap "sample.txt"
+(child-mm-wrt) end
+child-mm-wrt: exit(0)
+(mmap-exit) open "sample.txt" for verification
+(mmap-exit) verified contents of "sample.txt"
+(mmap-exit) close "sample.txt"
+(mmap-exit) end
+mmap-exit: exit(0)
+Execution of 'mmap-exit' complete.
+Timer: 113 ticks
+Thread: 30 idle ticks, 80 kernel ticks, 3 user ticks
+hd0:0: 0 reads, 0 writes
+hd0:1: 172 reads, 410 writes
+hd1:0: 197 reads, 2 writes
+hd1:1: 0 reads, 0 writes
+Console: 1323 characters output
+Keyboard: 0 keys pressed
+Exception: 13 page faults
+Powering off...

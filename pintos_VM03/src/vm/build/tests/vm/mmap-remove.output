@@ -1,0 +1,39 @@
+Copying tests/vm/mmap-remove to scratch partition...
+Copying ../../tests/vm/sample.txt to scratch partition...
+Writing command line to /tmp/ToF77E2RDc.dsk...
+qemu -hda /tmp/ToF77E2RDc.dsk -hdb /tmp/e5Ey4zFVAV.dsk -hdc /tmp/l4qZtmc7tW.dsk -hdd /tmp/7zDICy7CzN.dsk -m 4 -net none -nographic -monitor null
+Kernel command line: -q -f extract run mmap-remove
+Pintos booting with 4,096 kB RAM...
+373 pages available in kernel pool.
+372 pages available in user pool.
+Calibrating timer...  116,121,600 loops/s.
+hd0:0: detected 153 sector (76 kB) disk, model "QEMU HARDDISK", serial "QM00001"
+hd0:1: detected 4,032 sector (1 MB) disk, model "QEMU HARDDISK", serial "QM00002"
+hd1:0: detected 104 sector (52 kB) disk, model "QEMU HARDDISK", serial "QM00003"
+hd1:1: detected 8,064 sector (3 MB) disk, model "QEMU HARDDISK", serial "QM00004"
+Formatting file system...done.
+Boot complete.
+Extracting ustar archive from scratch disk into file system...
+Putting 'mmap-remove' into the file system...
+Putting 'sample.txt' into the file system...
+Erasing ustar archive...
+Executing 'mmap-remove':
+(mmap-remove) begin
+(mmap-remove) open "sample.txt"
+(mmap-remove) mmap "sample.txt"
+(mmap-remove) remove "sample.txt"
+(mmap-remove) try to open "sample.txt"
+(mmap-remove) create "another"
+(mmap-remove) end
+mmap-remove: exit(0)
+Execution of 'mmap-remove' complete.
+Timer: 97 ticks
+Thread: 30 idle ticks, 54 kernel ticks, 13 user ticks
+hd0:0: 0 reads, 0 writes
+hd0:1: 147 reads, 301 writes
+hd1:0: 103 reads, 2 writes
+hd1:1: 0 reads, 0 writes
+Console: 1216 characters output
+Keyboard: 0 keys pressed
+Exception: 7 page faults
+Powering off...

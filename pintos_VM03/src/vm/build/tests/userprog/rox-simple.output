@@ -1,0 +1,35 @@
+Copying tests/userprog/rox-simple to scratch partition...
+Writing command line to /tmp/ocnx07L8Zv.dsk...
+qemu -hda /tmp/ocnx07L8Zv.dsk -hdb /tmp/jFFqiXGBK6.dsk -hdc /tmp/bbNAozOBlW.dsk -hdd /tmp/fXyCuV7pR7.dsk -m 4 -net none -nographic -monitor null
+Kernel command line: -q -f extract run rox-simple
+Pintos booting with 4,096 kB RAM...
+373 pages available in kernel pool.
+372 pages available in user pool.
+Calibrating timer...  157,081,600 loops/s.
+hd0:0: detected 153 sector (76 kB) disk, model "QEMU HARDDISK", serial "QM00001"
+hd0:1: detected 4,032 sector (1 MB) disk, model "QEMU HARDDISK", serial "QM00002"
+hd1:0: detected 98 sector (49 kB) disk, model "QEMU HARDDISK", serial "QM00003"
+hd1:1: detected 8,064 sector (3 MB) disk, model "QEMU HARDDISK", serial "QM00004"
+Formatting file system...done.
+Boot complete.
+Extracting ustar archive from scratch disk into file system...
+Putting 'rox-simple' into the file system...
+Erasing ustar archive...
+Executing 'rox-simple':
+(rox-simple) begin
+(rox-simple) open "rox-simple"
+(rox-simple) read "rox-simple"
+(rox-simple) try to write "rox-simple"
+(rox-simple) end
+rox-simple: exit(0)
+Execution of 'rox-simple' complete.
+Timer: 82 ticks
+Thread: 30 idle ticks, 50 kernel ticks, 2 user ticks
+hd0:0: 0 reads, 0 writes
+hd0:1: 63 reads, 200 writes
+hd1:0: 97 reads, 2 writes
+hd1:1: 0 reads, 0 writes
+Console: 1093 characters output
+Keyboard: 0 keys pressed
+Exception: 6 page faults
+Powering off...

@@ -1,0 +1,22 @@
+/.cvsignore/2.0/Mon Sep 26 14:46:04 2016//
+/boom.c/2.0/Mon Sep 26 14:46:04 2016//
+/bubsort.c/2.0/Mon Sep 26 14:46:04 2016//
+/cat.c/2.0/Mon Sep 26 14:46:04 2016//
+/cmp.c/2.0/Mon Sep 26 14:46:04 2016//
+/cp.c/2.0/Mon Sep 26 14:46:04 2016//
+/halt.c/2.0/Mon Sep 26 14:46:04 2016//
+/hex-dump.c/2.0/Mon Sep 26 14:46:05 2016//
+/insult.c/2.0/Mon Sep 26 14:46:05 2016//
+/lineup.c/2.0/Mon Sep 26 14:46:05 2016//
+/ls.c/2.0/Mon Sep 26 14:46:07 2016//
+/matmult.c/2.0/Mon Sep 26 14:46:07 2016//
+/mcat.c/2.0/Mon Sep 26 14:46:07 2016//
+/mcp.c/2.0/Mon Sep 26 14:46:07 2016//
+/mkdir.c/2.0/Mon Sep 26 14:46:07 2016//
+/pwd.c/2.0/Mon Sep 26 14:46:07 2016//
+/recursor.c/2.0/Mon Sep 26 14:46:07 2016//
+/rm.c/2.0/Mon Sep 26 14:46:07 2016//
+/shell.c/2.0/Mon Sep 26 14:46:07 2016//
+D/lib////
+/Makefile/2.1/Tue Sep 27 23:07:10 2016//
+/echo.c/2.1/Wed Sep 28 07:32:31 2016//
